@@ -1,0 +1,15 @@
+.container{
+    width:100vw;
+    height:80vh;
+ background-color:rgb(31, 162, 228);
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.container .input{
+background-color: rgb(0, 0, 0);
+width:30%;
+height:100%;
+}
