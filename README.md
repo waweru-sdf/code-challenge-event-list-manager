@@ -32,11 +32,11 @@ code .
 # Technologies Used
 
 
-Css
-javascript
-Html
++ Css
++ javascript
++ Html
 
-License
+# License
 MIT License
 
 Copyright © 2024 Felix waweru
