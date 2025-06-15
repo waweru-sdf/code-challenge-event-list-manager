@@ -17,17 +17,31 @@ button.addEventListener('click', () => {
 
 
   if (inputValue !== "") {
-    const listItem = document.createElement('li'); // Create new list item
-    listItem.textContent = inputValue; // Set its text
-    list.appendChild(listItem); // Add it to the list
-    input.value = ""; // Clear input
-    message.textContent="";
+    const listItem = document.createElement('li');// create new list item
+    listItem.textContent = inputValue; // set its text
+
+    const removeBtn = document.createElement('button');
+    removeBtn.textContent = "Remove";
+    removeBtn.style.marginLeft = '10px';
+    removeBtn.style.background = 'red';
+    removeBtn.style.color = 'white';
+    removeBtn.style.border = 'none';
+    removeBtn.style.padding = '3px 6px';
+    removeBtn.style.borderRadius = '3px';
+    removeBtn.style.cursor = 'pointer';
+
+    removeBtn.addEventListener('click', () => {
+      listItem.remove();
+      message.textContent = "";
+    });
+
+    listItem.appendChild(removeBtn);
+    list.appendChild(listItem);//add it to the list
+
+    input.value = "";//clear input
+    message.textContent = "";
   }
 });
-
-
-
-
 
 
 
