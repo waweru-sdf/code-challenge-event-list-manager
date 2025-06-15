@@ -1,20 +1,25 @@
-Event list manager
+#Event list manager
 A simple project created using javascript css and html
 created by Felix waweru
-Description
+#Description
 This is a project where the user is able to add a maximum of ten guests to the list and can remove any that they want to remove
 
-Features
+#Features
 Type name 
 add Name
 remove name
 
 
-Installation Process
+#Installation Process
+
+
 Clone this repository using:
 
-git clone 
+git clone git@github.com:waweru-sdf/code-challenge-event-list-manager.git
+
+
 Navigate to the project directory:
+
 
 cd code-challenge-event-list-manager
 
@@ -24,7 +29,9 @@ using
 code .
 
 
-Technologies Used
+#Technologies Used
+
+
 Css
 javascript
 Html
