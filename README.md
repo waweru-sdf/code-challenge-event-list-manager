@@ -1,16 +1,16 @@
-#Event list manager
+# Event list manager
 A simple project created using javascript css and html
 created by Felix waweru
 #Description
 This is a project where the user is able to add a maximum of ten guests to the list and can remove any that they want to remove
 
-#Features
-Type name 
-add Name
-remove name
+# Features
+  Type name 
+  add Name
+  remove name
 
 
-#Installation Process
+# Installation Process
 
 
 Clone this repository using:
@@ -29,7 +29,7 @@ using
 code .
 
 
-#Technologies Used
+# Technologies Used
 
 
 Css
